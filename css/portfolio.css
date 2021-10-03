@@ -1,0 +1,79 @@
+/* Photo page */
+#photos{
+    padding-left: 4%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+/* Pictures boxes */
+.pictures img{
+    width: 257px;
+}
+
+.names{
+    padding-top: 3em;
+    font-size: 50px;
+}
+
+/* left pictures content */
+.lphoto{
+    width: 1500px;
+    justify-content: space-evenly;
+    padding-bottom: 2em;
+}
+
+/* right pictures content */
+.rphoto{
+    width: 1500px;
+    justify-content: space-evenly;
+    padding-bottom: 2em;
+}
+
+/* Video */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 30px 30px;
+}
+
+.vcont video{
+    transition: 200ms ease-in-out;
+}
+
+.vcont video:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 7px 7px #535353;
+}
+
+
+#portfolio{
+    color: black;
+}
+
+.pictures img{
+    transition: 200ms ease-in-out;
+}
+
+.pictures img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 7px 7px #535353;
+}
+
+/* Portfolio */
+
+#photo img{
+    transition: 200ms ease-in-out;
+}
+
+#photo img:hover{
+    transform: scale(1.2);
+}
+
+#video img{
+    transition: 200ms ease-in-out;
+}
+
+#video img:hover{
+    transform: scale(1.2);
+}
+

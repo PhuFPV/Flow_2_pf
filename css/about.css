@@ -1,0 +1,44 @@
+/* About */
+.ain{
+    margin-top: 3em;
+}
+
+.headline{
+    justify-content: right;
+    padding-right: 20%;
+    padding-bottom: 4em;
+}
+
+.headline h1{
+    font-size: 50px;
+    color: #484848;
+    padding-top: 0.5em;
+    padding-right: 10%;
+}
+
+.text p{
+    text-align: left;
+    width: 75%;
+    line-height: 2em;
+    padding-left: 15%;
+}
+
+.me img{
+    width: 500px;
+    padding: 0 2em;
+}
+
+
+#about{
+    color: black;
+}
+
+.highlight{
+    animation:fat 2s infinite alternate ease-in-out;
+}
+
+@keyframes fat{
+    100%{
+        color: rgb(163, 133, 77);
+    }
+}

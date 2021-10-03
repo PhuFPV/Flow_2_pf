@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'adam_boldbold';
+    src: url('./fonts/adam-bold-webfont.woff2') format('woff2'),
+         url('./fonts/adam-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'adam_boldbold';
+    src: url('./fonts/adam-bold-webfont.woff2') format('woff2'),
+         url('./fonts/adam-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Flex box class */
+.flex{
+    display: flex;
+}
+
+.grid{
+    display: inline-grid;
+}
+
+body{
+    margin: 35px 75px;
+}
+
+/* menu */
+.menu{
+    justify-content: space-between;
+    padding: 7px 35px;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    animation: menufade 1s ease-in-out alternate 2 forwards;
+}
+@keyframes menufade {
+    100%{
+        background-color: rgb(250, 250, 250);
+        border-radius: 100px;
+    }
+}
+
+/* Logo */
+#logo{
+    width: 8em;
+}
+
+.menu img{
+    transition: transform 500ms ;
+}
+
+.menu img:hover{
+    transform: scale(1.2);
+}
+
+/* All navigation */
+nav{
+    padding-top: 1.2em;
+    font-size: 25px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: #585858;
+}
+
+nav li{
+    margin: 5px 1em;
+}
+
+nav img{
+    width: 1em;
+}
+
+nav li{
+    transition: border-bottom 100ms ease-in-out;
+}
+
+nav li:hover{
+    border-bottom: solid 2px rgb(59, 59, 59);
+}
+
+/* Footer style */
+.foot{
+    justify-content: right;
+}
+
+.vline{
+    font-size: 0.7em;
+    color: #464646;
+    position:fixed;
+    bottom: 7%;
+    right: 10%;
+}
+
+.hline{
+    font-size: 0.7em;
+    color: #464646;
+    transform: rotate(90deg);
+    position: fixed;
+    top: 50%;
+    right: -14%;
+}

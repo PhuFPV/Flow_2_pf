@@ -1,0 +1,46 @@
+/* Contact */
+.contact{
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.lcontact{
+    padding: 50px 20px;
+    text-align: right;
+}
+
+#c2{
+    padding-top: 3em;
+}
+
+#cfraise{
+    transform: rotate(-90deg);
+    position: absolute;
+    font-size: 10px;
+    bottom: 35em;
+    left: 800px ;
+}
+
+.rcontact{
+    padding: 50px 20px;
+    text-align: left;
+}
+
+#cmail{
+    padding-top: 7em ;
+}
+
+
+#contact{
+    color: black;
+}
+
+#cmail{
+    animation:jump 1s infinite alternate ease-in-out;
+}
+
+@keyframes jump{
+    100%{
+        transform: translatey(-20%);
+    }
+}
