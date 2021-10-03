@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="492" height="588" viewBox="0 0 492 588">
+  <g id="FRAISE" transform="translate(-223 -270)">
+    <text id="FIRST" transform="translate(351 347)" fill="#464646" font-size="100" font-family="Adam-Bold, Adam" font-weight="700"><tspan x="-128" y="0">FIRST</tspan></text>
+    <text id="PERSON" transform="translate(451 564) rotate(90)" fill="#464646" font-size="100" font-family="Adam-Bold, Adam" font-weight="700"><tspan x="-196" y="0">PERSON</tspan></text>
+    <text id="VIEW" transform="translate(597 837)" fill="#464646" font-size="100" font-family="Adam-Bold, Adam" font-weight="700"><tspan x="-118" y="0">VIEW</tspan></text>
+  </g>
+</svg>
