@@ -3,11 +3,19 @@
     padding-left: 4%;
     padding-top: 5em;
     padding-bottom: 5em;
+    display: grid;
+    grid-template-columns: repeat(1, autofit);
 }
 
 /* Pictures boxes */
 .pictures img{
     width: 257px;
+}
+
+.pictures{
+    display: inline-grid;
+    grid-template-columns: repeat(3,auto);
+    grid-column-gap:1em;
 }
 
 .names{
