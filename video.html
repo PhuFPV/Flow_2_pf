@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emil Phu</title>
+    <link rel="stylesheet" href="./css\style.css">
+    <link rel="stylesheet" href="./css\main.css">
+    <link rel="stylesheet" href="./css\portfolio.css">
+    <link rel="stylesheet" href="./fonts/stylesheet.css" type="text/css" charset="utf-8" />
+</head>
+
+<body>
+    <header>
+        <div class="menu flex">
+            <a href="index"><img id="logo" src="./assets/logo.png" alt="Logo"></a>
+            <nav>
+                <ul class="primary flex">
+                    <img src="./assets/menul.svg" alt="divider">
+                    <li><a id="about" href="./about">ABOUT</a></li>
+                    <img src="./assets/menul.svg" alt="divider">
+                    <li><a id="portfolio" href="./index">PORTFOLIO</a></li>
+                    <img src="./assets/menul.svg" alt="divider">
+                    <li><a id="contact" href="./contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="videos grid">
+        <div class="vcont">
+            <video width="100%" muted loop id="vid1">
+                <source src="./assets/testvid.mp4" type="video/mp4">
+              </video>
+        </div>
+
+        <div class="vcont">
+            <video width="100%" muted loop id="vid2" autoplay>
+                <source src="./assets/testvid.mp4" type="video/mp4">
+              </video>
+        </div>
+
+        <div class="vcont">
+            <video width="100%" muted loop id="vid3">
+                <source src="./assets/testvid.mp4" type="video/mp4">
+              </video>
+        </div>
+
+        <div class="vcont">
+            <video width="100%" muted loop id="vid4">
+                <source src="./assets/testvid.mp4" type="video/mp4">
+              </video>
+        </div>
+
+        <div class="vcont">
+            <video width="100%" muted loop id="vid5">
+                <source src="./assets/testvid.mp4" type="video/mp4">
+              </video>
+        </div>
+
+        <div class="vcont">
+            <video width="100%" muted loop id="vid6">
+                <source src="./assets/testvid.mp4" type="video/mp4">
+              </video>
+        </div>
+<!--  
+        <script>
+                var figure = $(".video");
+    var vid = $("videos");
+
+    [].forEach.call(figure, function (item) {
+            item.addEventListener('mouseover', hoverVideo, false);
+            item.addEventListener('mouseout', hideVideo, false);
+    });
+    
+    function hoverVideo(e) {  
+            $('.thevideo')[0].play(); 
+    }
+
+    function hideVideo(e) {
+            $('.thevideo')[0].pause(); 
+    }
+        </script>
+         -->
+    </main>
+
+    <footer>
+        <div class="foot flex">
+            <div class="vline">
+                <p>- ALL RIGHT’S OF PHOTOS & VIDEOS ARE RESERVED TO EMIL PHU, IF YOU WANT TO USE MATERIAL PLEASE WRITE A
+                    EMAIL -</p>
+            </div>
+
+            <div class="hline flex">
+                <p>- ALL CONTENT ON THE WEBSITE IS FULLY PRODUCED BY EMIL PHU OR IN COLLABORATION WITH EXTERNAL
+                    COMPANIES -</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
