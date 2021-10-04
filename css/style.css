@@ -10,7 +10,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'adam_boldbold';
+    font-family: 'adam_boldbold', Arial, Helvetica, sans-serif;
     src: url('./fonts/adam-bold-webfont.woff2') format('woff2'),
          url('./fonts/adam-bold-webfont.woff') format('woff');
     font-weight: normal;
